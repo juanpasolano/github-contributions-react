@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App {
+  padding:50px;
+}
+.contributions_graph {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100px;
+  overflow: auto;
+}
+.contributions_graph .square{
+  width: 10px;
+  height: 10px;
+  background: lightgray;
+  margin: 1px;
+}
